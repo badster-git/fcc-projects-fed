@@ -21,6 +21,7 @@
 |     | **Data Visualization** |
 | [U.S. GDP Bar Chart](https://codepen.io/badster-pen/full/jOyqKxM) | [About U.S. GDP Bar Chart](#us-gdp-bar-chart) |
 
+</div>
 ## Responsive Web Design
 
 ### Tribute Page
@@ -82,4 +83,3 @@
 
 **[⬆ Back to Table of Contents](#table-of-contents)**
 
-</div>
