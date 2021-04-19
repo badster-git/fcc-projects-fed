@@ -1,3 +1,5 @@
+<div align="center">
+
 # My FreeCodeCamp Projects
 
 ### Table of Contents
@@ -79,3 +81,5 @@
    This is a U.S. GDP Bar Chart.
 
 **[⬆ Back to Table of Contents](#table-of-contents)**
+
+</div>
