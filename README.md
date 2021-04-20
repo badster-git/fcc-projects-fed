@@ -28,7 +28,7 @@
 ### U.S. GDP Bar Chart
    This is a U.S. GDP Bar Chart.
 
-**[⬆ Back to Table of Contents](#table-of-contents)**  **[🔗 Link to U.S. GDP Bar Chatd](https://codepen.io/badster-pen/full/jOyqKxM)**
+**[⬆ Back to Table of Contents](#table-of-contents)**  **[🔗 Link to U.S. GDP Bar Cart](https://codepen.io/badster-pen/full/jOyqKxM)**
 
 ## Front-End Libraries
 
@@ -53,7 +53,7 @@
 **[⬆ Back to Table of Contents](#table-of-contents)**  **[🔗 Link to Javascript Calculator](https://codepen.io/badster-pen/full/abBxgMz)**
 
 ### Timer
-   This is a 25 + 5 timer.
+   This webapp was made using HTML, SCSS, Flexbox, and React. This 25 + 5 Clock/Timer functions as a work/break timer, 25 minutes of work and 5 minutes of break. The React section of this app is made up of three class components, `SessionsComponent`, `TimerComponent`, `ClockApp`, and a stateless functional component, `Session`. The `SessionsComponent` and `TimerComponent` served as children of the main `ClockApp` component and the `Session` component was used to create the Break Length and Session Length elements. This was done due to the fact that both of these elements share a common layout. This component takes in props from the `SessionsComponent` which contains information relating to the Break or Session element as well as onClick properties that increase and decrese the session durations. The `SessionsComponent` returns two Session components, Break Length and Session Length. The `TimerComponent` is used to display the timer and label of the current session, as well as buttons that play, pause and reset the timer. The parent component handles the state of the entire app with the following values: `{timerState: 'stopped', intervalID: '', sessionLength: 25, breakLength: 5, currentSession: 'Session', timer: 1500}`. This main component returns the `TimerComponent`, `SessionsComponent`, and as well as an `<audio>` element that plays an audio clip from [mixkit.co](https://assets.mixkit.co) when the session timer reaches 0:00. The timer itself is handled with the `setINterval()` function, this is stored in the intervalID key in the state object. This is done because it allows a user to start or pause a timer, without having to reset. The timer is formatted into minutes and seconds in the `parseClock()` function, here is where a '0' is prefixed to both mins and seconds when they fall under 10. 
 
 **[⬆ Back to Table of Contents](#table-of-contents)**  **[🔗 Link to 25 + 5 Timer](https://codepen.io/badster-pen/full/YzNKyxB)**
 
