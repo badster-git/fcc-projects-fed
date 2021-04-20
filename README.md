@@ -28,7 +28,7 @@
 ### U.S. GDP Bar Chart
    This is a U.S. GDP Bar Chart.
 
-**[⬆ Back to Table of Contents](#table-of-contents)**  **[🔗 Link to U.S. GDP Bar Chard](https://codepen.io/badster-pen/full/jOyqKxM)**
+**[⬆ Back to Table of Contents](#table-of-contents)**  **[🔗 Link to U.S. GDP Bar Chatd](https://codepen.io/badster-pen/full/jOyqKxM)**
 
 ## Front-End Libraries
 
@@ -43,7 +43,7 @@
 **[⬆ Back to Table of Contents](#table-of-contents)**  **[🔗 Link to Markdown Previewer](https://codepen.io/badster-pen/full/JjbzoLL)**
 
 ### Drum Machine
-   This is a drum machine.
+   This webapp was made using HTML, SCSS, Flexbox, and JQuery. The drumpads are `<buttons>` with their associated name in the `id` property and with an `<audio>` tag nested in them. The audio tag has a sound clip from [freewavesamples.com](https://freewavesamples.com) in the `src` property. An `addEventListener` which is set to `keydown` is added to the body of the document and it's loaded in when the document has been rendered. This was done using the `document.ready` function. A switch-case statement is added with the `keyCode` event as the expression. The button associated with the keycode is pressed whenever the key is pressed down using the `$(#id).click()` function. The value of the button which contains the name of the sound that's played is then displayed in the `text-display` div. 
 
 **[⬆ Back to Table of Contents](#table-of-contents)**  **[🔗 Link to Drum Machine](https://codepen.io/badster-pen/full/zYoXKXd)**
 
