@@ -26,7 +26,7 @@
 ## Data Visualization
 
 ### U.S. GDP Bar Chart
-   This is a U.S. GDP Bar Chart.
+   This webpage was created using HTML, SCSS, JQuery, and D3(Data Driven Documents). The data used in this page is stored as a JSON object and is fetched from [Github](https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json). The data is then mapped and stored as a 2-dimensional array in the following format: `[date, gdp, quarter]`. The date which is formatted as `mm-dd-yyyy` by default is changed to `mm/dd/yyyy` because of issues faced with D3 not mapping bars correctly in the former format. The xScale and yScale variables are then created using the date and gdp to map the y-axis and x-axis. A mouseover function is used to display the quarter, year, and gdp value of the highlighted bar in a div.  
 
 **[⬆ Back to Table of Contents](#table-of-contents)**  **[🔗 Link to U.S. GDP Bar Cart](https://codepen.io/badster-pen/full/jOyqKxM)**
 
